@@ -5,7 +5,7 @@
 .card {
     border: 1px solid var(--branco);
     border-radius: 8px;
-    margin-top: 0.5em;
+    margin: 1em 0;
     overflow: hidden;
     background-color: var(--branco);
 }
@@ -30,6 +30,7 @@
 .card__consulta {
     display: flex;
     margin: 0.5em 1em;
+    align-items: center;
 }
 
 .card__consulta-texto {
@@ -92,4 +93,20 @@
     font-weight: 500;
     text-decoration: none;
     color: var(--cinza);
+}
+
+.card__botao-endereco {
+    border: 1px solid var(--azul);
+    border-radius: 8px;
+    padding: 1em;
+    background-color: var(--azul);
+    width: 100%;
+    text-align: center;
+}
+
+.card__botao-endereco-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--branco);
 }
