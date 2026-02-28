@@ -1,0 +1,95 @@
+.container__data {
+    margin-top: 2.5em;
+}
+
+.card {
+    border: 1px solid var(--branco);
+    border-radius: 8px;
+    margin-top: 0.5em;
+    overflow: hidden;
+    background-color: var(--branco);
+}
+
+.card__perfil {
+    padding: 1em 1em 0 1em;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card__infos {
+    display: block;
+}
+
+.card__nome {
+    padding: 0.75em 1em 0;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.card__consulta {
+    display: flex;
+    margin: 0.5em 1em;
+}
+
+.card__consulta-texto {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin-left: 0.75em;
+}
+
+.card__icone-chat {
+    position: absolute;
+    right: 1em;
+}
+
+.card__divisor {
+    margin: .75em 0;
+    color: var(--cinza);
+    opacity: 10%;
+}
+
+.card__opcoes {
+    padding: 0 1em 1em 1em;
+}
+
+.card__horarios {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 0.75em;
+}
+
+.card__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__botao-video {
+    border: 1px solid var(--laranja);
+    border-radius: 8px;
+    padding: 1em;
+    background-color: var(--laranja);
+}
+
+.card__botao-audio {
+    border: 1px solid var(--cinza-claro);
+    border-radius: 8px;
+    padding: 1em;
+    background-color: transparent;
+}
+
+.card__botao-video-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.card__botao-audio-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza);
+}

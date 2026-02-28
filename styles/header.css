@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75em 1em;
+    background-color: var(--branco);
+}
+
+.cabecalho__titulo {
+    font-size: 0.875rem;
+    color: var(--preto);
+    font-weight: 400;
+}
+
+.cabecalho__icones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

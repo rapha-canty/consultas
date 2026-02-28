@@ -1,0 +1,27 @@
+.container {
+    padding: 2em 1em 6em 1em;
+}
+
+.container__perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8.5em;
+}
+
+.container__perfil__infos-nome {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.container__perfil__infos-consultas {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin-top: .5rem;
+}
+
+.container__data {
+    font-weight: 700;
+    margin-bottom: 0.75em;
+}
