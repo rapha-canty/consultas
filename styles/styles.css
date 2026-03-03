@@ -1,6 +1,7 @@
 @import url("../styles/header.css");
 @import url("../styles/perfil.css");
 @import url("../styles/cards.css");
+@import url("../styles/rodape.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -21,3 +22,21 @@ body {
     background-color: var(--branco-fundo);
     color: var(--cinza);
 }
+
+.botao__mais {
+    border: 1px solid var(--azul);
+    background-color: var(--azul);
+    box-shadow: 0px 4px 16px 0px #4894FF80;
+    border-radius: 56px;
+    padding: 1.2em;
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    z-index: 10;
+}
+
+.botao__mais:checked ~ .container {
+    background-color: var(--preto);
+    opacity: 50%;
+}
+
