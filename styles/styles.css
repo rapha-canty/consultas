@@ -35,8 +35,5 @@ body {
     z-index: 10;
 }
 
-.botao__mais:checked ~ .container {
-    background-color: var(--preto);
-    opacity: 50%;
-}
+
 

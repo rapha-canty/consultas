@@ -1,8 +1,8 @@
 .rodape {
     background-color: var(--branco);
     border-top: 1px solid var(--branco);
-    border-radius: 12px;
-    box-shadow: 0 -4px 8px rgba(0,0,0,.06);
+    border-radius: 16px;
+    box-shadow: 0px -4px 8px 0px #0000000F;
     padding: 1em 0;
 
     position: fixed;
@@ -14,16 +14,13 @@
 
 .rodape__lista {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     list-style: none;
 }
 
 .rodape__lista-itens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 1em;
 }
 
@@ -32,9 +29,30 @@
     font-weight: 400;
     text-decoration: none;
     color: var(--cinza);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }
 
 .consulta {
     color: var(--azul);
 }
 
+@media screen and (min-width: 768px) {
+    .rodape {
+        padding: 1em 8em;
+    }
+
+    .rodape__lista {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        padding: 1em 28em;
+    }
+}
